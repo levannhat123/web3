@@ -1,0 +1,83 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\web33\\BlockChain_MetaMask\\blockchainmetamask\\contracts\\Lock.sol": {
+      "lastModificationDate": 1732671506543,
+      "contentHash": "da652b51917736ec5e82cf2623a6198e",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          
+
+
+          
+          "outputSelection": {
+
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "Lock",
+        "Lock1"
+      ]
+    },
+    "D:\\web33\\BlockChain_MetaMask\\blockchainmetamask\\contracts\\UserManager.sol": {
+      "lastModificationDate": 1732671506543,
+      "contentHash": "7de8b9ebea43ddc9a5287e9860f91a01",
+      "sourceName": "contracts/UserManager.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.27"
+      ],
+      "artifacts": [
+        "UserManager"
+      ]
+    }
+  }
+}
