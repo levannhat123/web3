@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update User</title>
+    <link rel="stylesheet" href="./css/user_form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Update User</h2>
+        <label for="userName">Name</label>
+        <input id="userName" type="text" placeholder="Enter user name" />
+        <label for="userHealth">Health</label>
+        <input id="userHealth" type="number" placeholder="Enter health value" />
+        <label for="userStrength">Strength</label>
+        <input id="userStrength" type="number" placeholder="Enter strength value" />
+        <div class="buttons">
+            <button id="cancel">Cancel</button>
+            <button id="save">Save</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <script src="./js/user_update.js"></script>
+</body>
+</html>
